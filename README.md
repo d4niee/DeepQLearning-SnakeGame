@@ -18,11 +18,3 @@ poetry add name
 ``SnakeGameAI``: This is the class that represents the Snake game. It contains methods to initialise the game (init), reset the game (reset), place food (place_food), perform a move (play_step), check if a collision has occurred (is_collision), and update the user interface (_update_ui).
 
 ``DQN_Trainer``: This is the class that manages the training of the DQN model. It contains a method to perform a training step (train_step) where the weights of the model are updated to minimise the difference between the predicted and target Q values.
-
-## Notizen
-
-* training: evtl matrix des spielsfelds als netz input?
-* mögliche reward:
-Positive Belohnung (+1) für das Essen eines Apfels.
-Negative Belohnung (-1) für das Sterben (z. B. Kollision mit dem Schlangenkörper oder einer Wand).
-Leicht negative Belohnung (-0,01) für jede Aktion, um die KI dazu zu ermutigen, schnell zu handeln und nicht zu zögern.
