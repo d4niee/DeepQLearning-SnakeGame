@@ -6,7 +6,7 @@
 4. Enter "poetry install" in the powershell
 5. "poetry shell"
 
-## Add new libariy
+## Add new library
 poetry add name
 
 ## Components DQN
